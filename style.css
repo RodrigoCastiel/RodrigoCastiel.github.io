@@ -1,0 +1,215 @@
+
+body {
+  background-color: #FFFFFF;
+}
+
+.page-wrapper {
+  background: #EEEEEE;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow:    0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow:         0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.page-body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  align-content: center;
+}
+
+.menu-bar {
+  padding: 0;
+  width: 100%;
+  background-color: #2B1B17;
+  border-bottom: 5px solid #0177AF;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.menu-bar ul, .menu-bar li {
+  margin-bottom: 7px;
+}
+
+.menu-bar ul {
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.menu-bar li {
+  padding-top: 7px;
+  float: left;
+  background: #2B1B17;
+  position: relative;
+}
+
+.menu-bar li a {
+  width: 100%;
+  background: #2B1B17;
+  color:      #FFFFFF;
+  text-align:  center;
+  padding: 20px 40px;
+  font: bold 14px/30px sans-serif;
+  text-decoration: none;
+
+  -webkit-transition: all .50s ease;
+  -moz-transition:    all .50s ease;
+  -ms-transition:     all .50s ease;
+  -o-transition:      all .50s ease;
+  transition:         all .50s ease;
+}
+
+.menu-bar li:hover a{
+  background: #0177AF;
+}
+
+.menu-bar li#current a{
+  background-color: #0177AF;
+}
+
+.menu-bar li#current:hover a{
+  background-color: #0177AF;
+}
+
+.content-divider { 
+  height: 1px;
+  width: auto;
+  margin-left:  15%;
+  margin-right: 15%;
+  background: #CCCCCC;
+  align-content: center;
+ }
+
+.content-block {
+  margin-left: 10%;
+  margin-right: 10%;
+
+  padding-bottom: 10px;
+  align-content: center;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  display: block;
+
+  
+}
+
+.content-block p {
+  font: normal 14px/22px sans-serif;
+  color: #222222;
+}
+
+.presentation-block {
+  background: #1F1F1F;
+  border-radius: 15px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 10%;
+
+  height: 325px;
+  /*height: 100%;*/
+
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow:    0px 3px 3px 0px rgba(0,0,0,0.75);
+  box-shadow:         0px 3px 3px 0px rgba(0,0,0,0.75);
+
+}
+
+.presentation-block .picture {
+  float: left;
+  height: 100%;
+}
+
+.presentation-block .picture img {
+  display: block;
+  margin: auto; 
+  /*max-height: 250px;*/
+  /*border: 3px solid #00AA00;*/
+  border-radius: 5px;
+}
+
+.presentation-block .presentation-content {
+  font: normal 12px/20px sans-serif;
+  color: white;
+  overflow: auto;
+  padding-left: 4%;
+  padding-right: 5%;
+}
+
+.presentation-block .presentation-content p {
+  font: normal 12px/20px sans-serif;
+  color: white;
+}
+
+.presentation-block .presentation-content a {
+  color: #0177DF;
+}
+
+.presentation-block .presentation-content a:hover {
+  color: #01DDFF;
+}
+
+.content-presentation-top {
+  /*background: white;*/
+}
+
+.content-presentation-bottom {
+
+}
+
+.content-presentation-bottom ul {
+  list-style: none;
+  position: relative;
+}
+
+.content-presentation-bottom li {
+  float: left;
+  background: white;
+  margin-right: 20px;
+  padding: 5px 10px; 
+
+  height: 25px;
+  border-radius: 5px; 
+
+  -webkit-box-shadow: inset 0px 0px 15px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset    0px 0px 15px 1px rgba(0,0,0,0.75);
+  box-shadow: inset         0px 0px 15px 1px rgba(0,0,0,0.75);
+}
+
+.content-presentation-bottom li:hover {
+  -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset    0px 0px 5px 1px rgba(0,0,0,0.75);
+  box-shadow: inset         0px 0px 5px 1px rgba(0,0,0,0.75);
+}
+
+.content-presentation-bottom img {
+  display: block;
+  margin: auto;
+  max-height: 25px;
+}
+
+/*.content-presentation-bottom li a:hover {
+  background: #FFFFFF;
+}*/
+
+.page-footer {
+  text-align-last: center;
+  font-family: sans-serif;
+  color: #FFEEFF;
+  background: #2B1B17;
+  height: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 5px solid #0177AF;
+}
+
+h2#my-name {
+  color: #01AACF;
+}
+
+

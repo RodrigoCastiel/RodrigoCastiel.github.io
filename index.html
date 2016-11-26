@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> RodrigoCastiel at github.io </title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <div class="page-wrapper"> 
+    <div class="page-header">
+      <div class="menu-bar">
+        <ul> 
+          <li id="current"> <a href="index.html"> Home </a> </li>
+          <li> <a href="about_me.html"> About Me </a> </li>
+          <li> <a href="research.html"> Research </a> </li>
+          <li> <a href="projects.html"> Projects </a> </li>
+        </ul>
+      </div>
+      <br>
+    </div>
+
+    <div class="content-block"> 
+      <div id="presentation-div" class="presentation-block">
+        <div class="picture"> <img id="profile-pic" src="imgs/profile.png"> </div>
+        <div class="presentation-content">
+          <div class="content-presentation-top">
+            <h2 id="my-name"> Rodrigo Castiel </h2>
+          </div>
+
+          <div class="content-presentation-bottom">            
+            <small> email: rcrs2 (at) cin.ufpe.br </small> - <small> castielr (at) usc.edu </small> 
+            <p> Computer Engineering undergraduate student at
+            <a href="http://www2.cin.ufpe.br/site/index.php"> Center for Informatics (CIn) </a>, Recife, Brazil. <br>
+            Former Computer Science exchange student at
+            <a href="http://www2.cin.ufpe.br/site/index.php"> University of Southern California </a>, Los Angeles.
+            </p>
+
+            <p> I'm interested in Computer Graphics, Digital Image Processing and software development. Recently I've been working on real-time physically-based animation, real-time graphics with OpenGL 4.0, and nonlinear optimization problem modeling. </p>
+
+            <p> I'm fluent in C/C++, MATLAB and Python; I can also do some webdesign (HTML5 + CSS3 + Javascript). I've been coding for 5+ years, since I taught myself the C language in high-school. Even though I have a strong experience in implementing advanced numerical methods in C++, I learned lots of different programming languages, so I'm very open to study and practice even more. </p>
+
+            <p> In my freetime, I usually work on some <a href="https://github.com/RodrigoCastiel"> personal coding projects </a> or play the <a href="https://www.youtube.com/watch?v=WycgYk0Wc-4"> piano. </a> </p>
+
+            <p> You are very welcome to visit me on: </p>
+            <ul>
+              <li> <a href="https://github.com/RodrigoCastiel" class="ext-social-network"> <img src="imgs/GitHub_Logo.png"> </a> </li>
+              <li> <a href="https://www.linkedin.com/in/rodrigocastiel" class="ext-social-network"> <img src="imgs/LinkedIn_Logo.png"> </a> </li>
+              <li> <a href="https://www.youtube.com/user/rcrs2" class="ext-social-network"> <img src="imgs/YouTube_Logo.png"> </a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Resize image to fit in div -->
+      <script type="text/javascript">
+      (function() {
+        var img = document.getElementById("profile-pic");
+        img.onload = function() {
+            var div_height = document.getElementById("presentation-div").clientHeight;
+            var aspect = img.width/img.height;
+            var fraction = 0.8;
+            img.height = div_height * fraction;
+            img.width = aspect * img.height;
+            img.style.marginTop = Math.floor(div_height * (1-fraction) / 2).toString().concat("px");
+        };
+      }());
+      </script>
+
+    </div>
+
+    <div class="content-divider"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer class="page-footer">
+      <small>© Copyright 2016, Rodrigo Castiel</small>
+    </footer>
+  </div>
+
+</body>
+</html>
