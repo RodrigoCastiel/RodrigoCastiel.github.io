@@ -102,8 +102,7 @@ body {
   border-radius: 15px;
   padding-left: 3%;
   padding-right: 3%;
-  padding-bottom: 10%;
-  height: 340px;
+  padding-bottom: 3%;
 
   -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
   -moz-box-shadow:    0px 3px 3px 0px rgba(0,0,0,0.75);
@@ -122,7 +121,7 @@ body {
 }
 
 .presentation-block .presentation-content {
-  font: normal 12px/20px sans-serif;
+  font: normal 13px/20px "Georgia";
   color: white;
   overflow: auto;
   padding-left: 4%;
@@ -130,7 +129,7 @@ body {
 }
 
 .presentation-block .presentation-content p {
-  font: normal 12px/20px sans-serif;
+  font: normal 13px/20px "Georgia";
   color: white;
 }
 
@@ -200,13 +199,16 @@ body {
   box-shadow:         0px 3px 10px 0px rgba(0,0,0,0.75);
 }
 
-.project-content img {
-  display: block;
+.project-content td.proj-img {
+  background: #1F1F1F;
 
   -webkit-box-shadow: 0px 0px 5px 0px rgba(1,1,1,0.75);
   -moz-box-shadow:    0px 0px 5px 0px rgba(1,1,1,0.75);
   box-shadow:         0px 0px 5px 0px rgba(1,1,1,0.75);
+}
 
+.project-content img, .project-content iframe {
+  display: block;
 }
 
 .project-content h2 {
@@ -233,7 +235,7 @@ body {
 }
 
 .project-content h2 a:hover {
-  color: #00CCFF;
+  color: #0177AF;
 }
 
 h2#my-name { 
