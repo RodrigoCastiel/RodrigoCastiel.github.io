@@ -1,0 +1,111 @@
+
+div#profile {
+  background: #FEFEFE;
+  padding: 1% 0%;
+  font: normal 14px/22px sans-serif;
+
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow:    0px 3px 10px 0px rgba(0,0,0,0.75);
+  box-shadow:         0px 3px 10px 0px rgba(0,0,0,0.75);
+}
+
+div#profile table {
+  margin: auto;
+}
+
+div#profile .top-row td {
+
+}
+
+div#profile .top-row img {
+  display: block;
+  margin: auto;
+
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow:    0px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow:         0px 2px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+div#profile .bottom-row td {
+
+}
+
+div#profile .bottom-row p {
+  text-align: center;
+  font: normal 14px/22px sans-serif;
+  color: #222222;
+}
+
+div#profile .top-row h2 {
+  text-align: center;
+  text-shadow: 0px 0px 1px #555555;
+  font: normal 22px/22px sans-serif;
+  color: #111111;
+}
+
+div#profile .bottom-row .info-table {
+  /*margin-left: 5%;
+  margin-right: 5%;*/
+}
+
+div#profile .bottom-row .info-table .useful-links  {
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div#profile .bottom-row .info-table .useful-links ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+div#profile .bottom-row .info-table .useful-links li {
+  float: left;
+  display: block;
+  padding: 2px 20px;
+
+  font: normal 15px/20px sans-serif;
+}
+
+div#profile .bottom-row .info-table .useful-links li a {
+  text-decoration: none;
+  color: #111111;
+  text-shadow: 1px 0px 1px #BBBBBB;
+}
+
+div#profile .bottom-row .info-table .useful-links li:hover a {
+  color: #0177AF;
+}
+
+div#profile .bottom-row .info-table .main {
+  /*background: #F8F8F8;*/
+  font: normal 14px/18px sans-serif;
+}
+
+#main-info  {
+
+}
+
+#main-info table {
+  margin: auto;
+}
+
+#main-info td {
+}
+
+#main-info td.type {
+  color: #0177AF;
+  padding: 20px 20px;
+  /*padding-left: 10px;*/
+  /*text-align: center;*/
+}
+
+#main-info td.description, #main-info td.description p {
+  text-align: left;
+  font: normal 14px/20px sans-serif;
+  padding: 0px 20px;
+}
+

@@ -50,27 +50,30 @@ body {
 }
 
 .menu-bar li a {
-  width: 100%;
-  background: #2B1B17;
   color:      #FFFFFF;
-  text-align:  center;
+  background: #2B1B17;
+  width: 100%;
   padding: 20px 40px;
-  font: bold 14px/30px sans-serif;
+  
+  font: bold 15px/30px sans-serif;
+  text-align:  center;
   text-decoration: none;
+  text-shadow: 1px 0px 1px #222222;
 
-  -webkit-transition: all .50s ease;
-  -moz-transition:    all .50s ease;
-  -ms-transition:     all .50s ease;
-  -o-transition:      all .50s ease;
-  transition:         all .50s ease;
-}
-
-.menu-bar li:hover a{
-  background: #0177AF;
+  -webkit-transition: all .30s ease;
+  -moz-transition:    all .30s ease;
+  -ms-transition:     all .30s ease;
+  -o-transition:      all .30s ease;
+  transition:         all .30s ease;
 }
 
 .menu-bar li#current a{
   background-color: #0177AF;
+
+}
+
+.menu-bar li:hover a{
+  background: #0177AF;
 }
 
 .menu-bar li#current:hover a{
@@ -93,11 +96,11 @@ body {
   margin-right: 10%;
 
   align-content: center;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   display: block;
 }
 
-.presentation-block {
+.aboutme-block {
   background: #1F1F1F;
   border-radius: 15px;
   padding-left: 3%;
@@ -110,17 +113,17 @@ body {
 
 }
 
-.presentation-block .picture {
+.aboutme-block .picture {
   float: left;
   margin-top: 5%;
 }
 
-.presentation-block .picture img {
+.aboutme-block .picture img {
   display: block;
   border-radius: 7px;
 }
 
-.presentation-block .presentation-content {
+.aboutme-block .aboutme-content {
   font: normal 13px/20px "Georgia";
   color: white;
   overflow: auto;
@@ -128,33 +131,33 @@ body {
   padding-right: 5%;
 }
 
-.presentation-block .presentation-content p {
+.aboutme-block .aboutme-content p {
   font: normal 13px/20px "Georgia";
   color: white;
 }
 
-.presentation-block .presentation-content a {
+.aboutme-block .aboutme-content a {
   color: #0177DF;
 }
 
-.presentation-block .presentation-content a:hover {
+.aboutme-block .aboutme-content a:hover {
   color: #01DDFF;
 }
 
-.content-presentation-top {
+.content-aboutme-top {
   /*background: white;*/
 }
 
-.content-presentation-bottom {
+.content-aboutme-bottom {
 
 }
 
-.content-presentation-bottom ul {
+.content-aboutme-bottom ul {
   list-style: none;
   position: relative;
 }
 
-.content-presentation-bottom li {
+.content-aboutme-bottom li {
   float: left;
   background: white;
   margin-right: 20px;
@@ -168,13 +171,13 @@ body {
   box-shadow: inset         0px 0px 15px 1px rgba(0,0,0,0.75);
 }
 
-.content-presentation-bottom li:hover {
+.content-aboutme-bottom li:hover {
   -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.75);
   -moz-box-shadow: inset    0px 0px 5px 1px rgba(0,0,0,0.75);
   box-shadow: inset         0px 0px 5px 1px rgba(0,0,0,0.75);
 }
 
-.content-presentation-bottom img {
+.content-aboutme-bottom img {
   display: block;
   margin: auto;
   max-height: 25px;
@@ -192,11 +195,10 @@ body {
 }
 
 .project-content {
-  /*margin: 5% 5%;*/
-  /*border-radius: 7px;*/
   -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
   -moz-box-shadow:    0px 3px 10px 0px rgba(0,0,0,0.75);
   box-shadow:         0px 3px 10px 0px rgba(0,0,0,0.75);
+  background: #FEFEFE;
 }
 
 .project-content td.proj-img {
