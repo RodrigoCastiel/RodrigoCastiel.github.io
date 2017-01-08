@@ -61,7 +61,7 @@
                 <h2> <a href="http://rodrigocastiel.github.io/gl-oo-interface/"> RollerCoaster Simulator in C++ and OpenGL 4.0 </a> </h2>
                 <small> March 2016 </small> 
 
-                <p> This is a course project for <a href="http://www-bcf.usc.edu/~jbarbic/cs420-s16/"> CSCI 420 - Computer Graphics </a> at USC. Given an input track (i.e. control points of a spline), it renders and simulates a ride on a spatial roller-coaster.
+                <p> This is a course project for <a href="http://www-bcf.usc.edu/~jbarbic/cs420-s16/"> CSCI 420 - Computer Graphics </a> at USC. Given an input track (i.e. control points of a spline), it renders and simulates a ride on a spatial roller-coaster from scratch.
                 I implemented a lot of extra features, including:
                 </p>
 
@@ -124,16 +124,17 @@
             <td>
               <div class="text"> 
                 <h2> <a href="https://github.com/RodrigoCastiel/gl-oo-interface/"> OpenGL Object-Oriented Interface (gloo) </a> </h2>
-                <small> Under development </small> 
+                <small> July 2016 - Today </small> 
                 <p>
                 In OpenGL 3.2, Khronos Group removed a large number of functionalities, such as on-the-fly per-vertex rendering calls or default lighting. Nowadays, the application should provide shaders and implement lighting from scratch.
-                In order to make all these tasks easier, I'm coding gl-oo-interface in C++11 as a wrapper for OpenGL 4.0 for my future real-time graphics applications. It is currently under development, but it will have the following modules:
+                In order to make all these tasks easier, I'm coding gl-oo-interface in C++11 as a wrapper for OpenGL 4.0 for my future real-time graphics applications. It is currently under development, but it already has the following features:
                 </p>
                 <ul>
-                  <li> GLUT interface module </li>
-                  <li> Mesh Manipulation module </li>
+                  <li> Custom mesh manipulation (automatic VBO, EBO and VAO management for user-defined attributes) </li>
+                  <li> GLUT interface module (keyboard and mouse events) </li>
                   <li> Shader Manipulation module </li>
-                  <li> Renderer module: phong shading, shadow mapping, normal mapping </li>
+                  <li> Renderer module: wireframe, phong shading, normal mapping </li>
+                  <li> Multiple texture loading on shaders </li>
                   <li> Tools: camera, transformations, frequent meshes </li>
                 </ul>
 
